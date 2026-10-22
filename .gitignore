@@ -1,0 +1,38 @@
+
+# Terraform working files and sensitive state
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+tfplan.*
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+.terraform.tfstate.lock.info
+crash.log
+crash.*.log
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Lambda build outputs
+*.zip
+package/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs and stale combined draft
+*.log
+tfs.txt
