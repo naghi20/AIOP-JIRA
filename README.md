@@ -13,7 +13,7 @@ severity + low risk → SSM automated remediation → Medium/High severity → S
 > Status: learning lab under development. End-to-end validation is incomplete.
 > Current blocker: Bedrock Titan Text Embeddings V2 returns `ThrottlingException`
 > from both the AWS CLI and the runbook-ingestion Lambda in `us-west-2`.
-> Do not enable automated remediation until the trainer has reviewed the code,
+> Do not enable automated remediation yet.
 > target mapping, IAM permissions, and allowed actions.
 
 ## 1. Project goal
